@@ -38,14 +38,14 @@ slide3.toptext = "Cigarette butts are more harmful to the environment than other
 slide3.toptextsize = 3.5;
 slide3.bottomtext = "<a href=https://www.hamad.qa/EN/your%20health/Stop%20Smoking/About-Smoking/Pages/Make-up-of-Cigarettes.aspx>Image source<a>";
 slide3.bottomtextsize = 1.5;
-slide3.imgurl = "Slide3.PNG";
+slide3.imgurl = "slide3.PNG";
 slide3.imgsize = 53;
 slide3.offset = 17;
 slidearray.push(slide3);
 let slide4 = new slide();
 slide4.toptext = "A viable alternative to cigarette butts would reduce the amount of toxic chemicals in the environment.";
 slide4.toptextsize = 4;
-slide4.imgurl = "Slide4.PNG";
+slide4.imgurl = "slide4.PNG";
 slide4.imgsize = 90;
 slide4.offset = 14;
 slidearray.push(slide4);
@@ -53,18 +53,18 @@ let slide5 = new slide();
 slide5.toptext = "Please sign my petition so that the government will consider my proposal to add a $1 fee onto cigarette packs to fund further research into finding a viable alternative to cigarette butts.";
 slide5.toptextsize = 2.3;
 slide5.bottomtext = "<a href=https://petitions.ourcommons.ca/en/Petition/Details?Petition=e-3258>Link to petition<a>";
-slide5.bottomtextsize = 1.5;
-slide5.imgurl = "Slide5.PNG";
-slide5.imgsize = 70;
+slide5.bottomtextsize = 2.5;
+slide5.imgurl = "slide5.PNG";
+slide5.imgsize = 90;
 slide5.offset = 10;
 slidearray.push(slide5); 
-let slide6 = new slide();
-slide6.toptext = "Thank you for watching this presentation and signing my petition!";
-slide6.toptextsize = 3.5;
-slide6.imgurl = "Slide6.PNG";
-slide6.imgsize = 45;
-slide6.offset = 10;
-slidearray.push(slide6); 
+// let slide6 = new slide();
+// slide6.toptext = "Thank you for watching this presentation and signing my petition!";
+// slide6.toptextsize = 3.5;
+// slide6.imgurl = "slide6.PNG";
+// slide6.imgsize = 45;
+// slide6.offset = 10;
+// slidearray.push(slide6); 
 
 
 function displaySlide(slidenum) {
@@ -101,7 +101,7 @@ function NextSlide() {
     // document.getElementById("TopText").style.top = "0px";
     // document.getElementById("BottomText").style.top = "100%";
     currentslidenum += 1;
-    if (currentslidenum == 5) {
+    if (currentslidenum == 4) {
         document.getElementById("next-button").style.display = 'none';
     }
     if (currentslidenum == 1) {
@@ -119,7 +119,7 @@ function PrevSlide() {
     if (currentslidenum == 0) {
         document.getElementById("prev-button").style.display = 'none';
     }
-    if (currentslidenum == 4) {
+    if (currentslidenum == 3) {
         document.getElementById("next-button").style.display = 'block';
     }
     displaySlide(currentslidenum)

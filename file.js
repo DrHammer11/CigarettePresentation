@@ -52,7 +52,7 @@ slidearray.push(slide4);
 let slide5 = new slide();
 slide5.toptext = "Please sign my petition so that the government will consider my proposal to add a $1 fee onto cigarette packs to fund further research into finding a viable alternative to cigarette butts.";
 slide5.toptextsize = 2.3;
-slide5.bottomtext = "<a href=https://petitions.ourcommons.ca/en/Petition/Details?Petition=e-3258>Link to petition<a>";
+slide5.bottomtext = "<a href=https://petitions.ourcommons.ca/en/Petition/Sign/e-3258>Link to petition<a>";
 slide5.bottomtextsize = 2.5;
 slide5.imgurl = "Slide5.PNG";
 slide5.imgsize = 90;
